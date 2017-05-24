@@ -55,27 +55,11 @@ def export_to_json(file_path, stemms):
     with open(file_path, 'w') as outfile:
         json.dump(stemms, outfile, indent=4)
 
-
-'''
-The Task
-
-Download web page using HTTP Protocol (requests module)
-Parse loaded data with bs4
-
-Tokenize and tag your data (nltk module)
-Write popular noun (top 20 noun) with count in the new file in json format.
-'''
-
 url = 'https://www.tutorialspoint.com/sambo/sambo_rules.htm'
 page = requests.get(url)
-
 page_text = parse_page_text(page)
-
 stemms = get_stemms(page_text)
-
 popular_stemms = top_20(stemms)
-
-file_path = 'output/top20.json'
+file_path = 'top_page_words/output/top20.json'
 export_to_json(file_path, popular_stemms)
-
 print('Task completed succesfully, you can find json file with top 20 words in a file', file_path)

@@ -1,60 +1,59 @@
 [
     {
-        "rank": 1,
         "words": [
             "player"
         ],
+        "rank": 1,
         "count": 20
     },
     {
-        "rank": 2,
         "words": [
             "oppon"
         ],
+        "rank": 2,
         "count": 13
     },
     {
-        "rank": 3,
         "words": [
             "hold",
             "case"
         ],
+        "rank": 3,
         "count": 12
     },
     {
-        "rank": 4,
         "words": [
             "in"
         ],
+        "rank": 4,
         "count": 8
     },
     {
-        "rank": 5,
         "words": [
             "point",
             "bout"
         ],
+        "rank": 5,
         "count": 7
     },
     {
-        "rank": 6,
         "words": [
             "his/her",
             "appli"
         ],
+        "rank": 6,
         "count": 6
     },
     {
-        "rank": 7,
         "words": [
             "pain",
             "if",
             "declar"
         ],
+        "rank": 7,
         "count": 5
     },
     {
-        "rank": 8,
         "words": [
             "winner",
             "warn",
@@ -63,10 +62,10 @@
             "match",
             "certain"
         ],
+        "rank": 8,
         "count": 4
     },
     {
-        "rank": 9,
         "words": [
             "total",
             "throw",
@@ -75,10 +74,10 @@
             "evalu",
             "end"
         ],
+        "rank": 9,
         "count": 3
     },
     {
-        "rank": 10,
         "words": [
             "\u2212",
             "zero",
@@ -107,10 +106,10 @@
             "activ",
             "action"
         ],
+        "rank": 10,
         "count": 2
     },
     {
-        "rank": 11,
         "words": [
             "\u00a9",
             "yes",
@@ -206,6 +205,7 @@
             "2017",
             "12"
         ],
+        "rank": 11,
         "count": 1
     }
 ]
